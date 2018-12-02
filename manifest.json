@@ -1,0 +1,17 @@
+{
+  "name": "Open in Edge",
+  "version": "1.0",
+  "description": "Open in Edge context menu",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/open_in_edge16.png",
+    "32": "images/open_in_edge32.png",
+    "48": "images/open_in_edge48.png",
+    "128": "images/open_in_edge128.png"
+  },
+  "manifest_version": 2
+}
